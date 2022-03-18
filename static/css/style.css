@@ -1,0 +1,12 @@
+body {
+    background: lightgrey;
+    font: 18px Arial, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.navigation {
+    margin-top: 50px;
+    font: 14px Arial, sans-serif;
+}

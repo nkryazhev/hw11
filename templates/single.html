@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>{{ candidate.name }}</h1>
+<p>{{ candidate.position }}</p>
+<img src="{{ candidate.picture }}" width=200/>
+<p>Навыки: {{ candidate.skills }}</p>
+
+<div class="navigation">
+    <p><a href="/">На главную</a></p>
+</div>
+
+</body>
+</html>
